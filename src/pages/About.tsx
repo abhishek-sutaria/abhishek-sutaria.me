@@ -3,9 +3,20 @@ import { aboutParagraphs, site, socialLinks } from '../data/content'
 export function About() {
   return (
     <article className="article">
-      <header>
-        <h1 className="page-title">{site.name}</h1>
-        <p className="page-subtitle">{site.title}</p>
+      <header className="about-intro">
+        <img
+          className="about-photo"
+          src={site.photoUrl}
+          alt={`${site.name}`}
+          width={400}
+          height={400}
+          decoding="async"
+          fetchPriority="high"
+        />
+        <div className="about-intro-text">
+          <h1 className="page-title">{site.name}</h1>
+          <p className="page-subtitle">{site.title}</p>
+        </div>
       </header>
 
       <div className="prose">

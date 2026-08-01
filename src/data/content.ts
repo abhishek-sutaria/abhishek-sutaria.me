@@ -6,6 +6,8 @@ export const site = {
   phone: '+1 (930) 333-7194',
   location: 'Bloomington, IN',
   resumeUrl: '/resume.pdf',
+  /** Daytime portrait — cropped to head/shoulders via CSS object-position */
+  photoUrl: '/portrait.jpg',
   links: {
     email: 'mailto:abhishek.sutaria@gmail.com',
     github: 'https://github.com/abhishek-sutaria',
