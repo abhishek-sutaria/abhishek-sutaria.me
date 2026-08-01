@@ -133,6 +133,29 @@ button {
   gap: 2rem;
 }
 
+.about-intro {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.25rem;
+}
+
+.about-photo {
+  width: 7.5rem;
+  height: 7.5rem;
+  flex-shrink: 0;
+  border-radius: var(--radius);
+  object-fit: cover;
+  object-position: center;
+  background: var(--secondary);
+  /* Let the browser scale the full-res PNG down (sharper on retina) */
+  image-rendering: auto;
+}
+
+.about-intro-text {
+  min-width: 0;
+}
+
 .page-title {
   font-family: var(--font-serif);
   font-size: 1.875rem;
@@ -269,6 +292,19 @@ button {
   color: var(--muted-foreground);
 }
 
+@media (min-width: 40rem) {
+  .about-intro {
+    flex-direction: row;
+    align-items: center;
+    gap: 1.75rem;
+  }
+
+  .about-photo {
+    width: 9rem;
+    height: 9rem;
+  }
+}
+
 @media (min-width: 64rem) {
   .mobile-header {
     display: none;
@@ -301,6 +337,11 @@ button {
 
   .main {
     padding: 3rem 4rem;
+  }
+
+  .about-photo {
+    width: 10rem;
+    height: 10rem;
   }
 
   .page-title {
