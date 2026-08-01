@@ -133,33 +133,9 @@ button {
   gap: 2rem;
 }
 
-.about-intro {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 1rem;
-}
-
-.about-photo {
-  width: 5.5rem;
-  height: 5.5rem;
-  flex-shrink: 0;
-  border-radius: var(--radius);
-  object-fit: cover;
-  object-position: center;
-  background: var(--secondary);
-  /* Let the browser scale the full-res PNG down (sharper on retina) */
-  image-rendering: auto;
-}
-
-.about-intro-text {
-  min-width: 0;
-  flex: 1;
-}
-
 .page-title {
   font-family: var(--font-serif);
-  font-size: 1.5rem;
+  font-size: 1.875rem;
   font-weight: 500;
   letter-spacing: -0.025em;
   text-wrap: balance;
@@ -167,10 +143,8 @@ button {
 }
 
 .page-subtitle {
-  margin-top: 0.35rem;
+  margin-top: 0.5rem;
   color: var(--muted-foreground);
-  font-size: 0.9375rem;
-  line-height: 1.4;
 }
 
 .section-title {
@@ -295,26 +269,6 @@ button {
   color: var(--muted-foreground);
 }
 
-@media (min-width: 40rem) {
-  .about-intro {
-    gap: 1.5rem;
-  }
-
-  .about-photo {
-    width: 8rem;
-    height: 8rem;
-  }
-
-  .page-title {
-    font-size: 1.875rem;
-  }
-
-  .page-subtitle {
-    margin-top: 0.5rem;
-    font-size: 1rem;
-  }
-}
-
 @media (min-width: 64rem) {
   .mobile-header {
     display: none;
@@ -347,15 +301,6 @@ button {
 
   .main {
     padding: 3rem 4rem;
-  }
-
-  .about-intro {
-    gap: 1.75rem;
-  }
-
-  .about-photo {
-    width: 10rem;
-    height: 10rem;
   }
 
   .page-title {
