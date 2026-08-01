@@ -146,8 +146,10 @@ button {
   flex-shrink: 0;
   border-radius: var(--radius);
   object-fit: cover;
-  object-position: 50% 12%;
+  object-position: center;
   background: var(--secondary);
+  /* Let the browser scale the full-res PNG down (sharper on retina) */
+  image-rendering: auto;
 }
 
 .about-intro-text {

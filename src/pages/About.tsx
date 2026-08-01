@@ -8,8 +8,9 @@ export function About() {
           className="about-photo"
           src={site.photoUrl}
           alt={`${site.name}`}
-          width={400}
-          height={400}
+          width={800}
+          height={800}
+          sizes="(min-width: 64rem) 10rem, (min-width: 40rem) 9rem, 7.5rem"
           decoding="async"
           fetchPriority="high"
         />
