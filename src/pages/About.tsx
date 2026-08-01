@@ -16,8 +16,12 @@ export function About() {
                 <a
                   key={partIndex}
                   href={part.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  target={part.href.startsWith('mailto:') ? undefined : '_blank'}
+                  rel={
+                    part.href.startsWith('mailto:')
+                      ? undefined
+                      : 'noopener noreferrer'
+                  }
                   className="inline-link"
                 >
                   {part.text}

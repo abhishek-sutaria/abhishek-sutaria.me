@@ -34,40 +34,53 @@ export type BioParagraph = LinkedPhrase[]
 /** Short essay-style About page, modeled on neelsomani.com */
 export const aboutParagraphs: BioParagraph[] = [
   [
-    { text: 'I\'m pursuing an MS in Data Science at ' },
     {
-      text: 'Indiana University Bloomington',
-      href: 'https://luddy.indiana.edu/',
+      text: 'I build production AI systems, mostly multi-agent LLM applications, real-time voice pipelines, and the data infrastructure underneath them.',
     },
-    { text: ' (GPA 3.72), after a B.E. in Electronics and Telecommunication from the University of Mumbai with an honors specialization in AI/ML.' },
   ],
   [
-    { text: 'After graduating, I joined ' },
+    { text: 'Two years as a data engineer at ' },
     {
       text: 'Edelweiss Global Markets',
       href: 'https://www.edelweissfin.com/',
     },
     {
-      text: ' as a data engineer, where I built Airflow and PySpark pipelines that processed 1TB+ of equities and futures data per day for quant research.',
+      text: ' running Airflow and PySpark pipelines over 1TB/day of equities and futures data, then an MS in Data Science at ',
     },
-  ],
-  [
-    { text: 'Since then I\'ve worked across applied AI — shipping clinical Text-to-SQL at ' },
+    {
+      text: 'Indiana University Bloomington',
+      href: 'https://luddy.indiana.edu/',
+    },
+    { text: '. Since then: clinical Text-to-SQL serving 15+ clinicians at ' },
     { text: 'Digbi Health', href: 'https://digbihealth.com/' },
-    { text: ', building a multi-agent RAG tutoring system at the ' },
+    { text: ', multi-agent RAG at the ' },
     {
       text: 'Kelley School of Business',
       href: 'https://kelley.iu.edu/',
     },
-    { text: ', and leading LLM classification of nonprofit missions at Project 990.' },
+    { text: ', and LLM classification of 100K+ nonprofit missions at Project 990.' },
   ],
   [
-    { text: 'I\'m focused on production AI systems, data platforms, and research that ships — from real-time voice agents to ' },
+    { text: 'The two projects I\'d point you to first are ' },
+    {
+      text: 'CareBridge',
+      href: 'https://github.com/abhishek-sutaria/CareBridge',
+    },
+    {
+      text: ', a multi-agent post-discharge care platform that took 2nd at the Claude Hackathon, and UnStutter AI, a real-time speech accessibility tool that won the Honeywell Hackathon at NSBE 2026 against 35+ teams. Also ',
+    },
     {
       text: 'model readiness tooling',
       href: 'https://modelready.onrender.com',
     },
     { text: '.' },
+  ],
+  [
+    { text: 'Open to AI/ML engineering roles. ' },
+    {
+      text: 'abhishek.sutaria@gmail.com',
+      href: 'mailto:abhishek.sutaria@gmail.com',
+    },
   ],
 ]
 
