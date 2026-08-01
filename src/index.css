@@ -135,14 +135,14 @@ button {
 
 .about-intro {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 1.25rem;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
 }
 
 .about-photo {
-  width: 7.5rem;
-  height: 7.5rem;
+  width: 5.5rem;
+  height: 5.5rem;
   flex-shrink: 0;
   border-radius: var(--radius);
   object-fit: cover;
@@ -154,11 +154,12 @@ button {
 
 .about-intro-text {
   min-width: 0;
+  flex: 1;
 }
 
 .page-title {
   font-family: var(--font-serif);
-  font-size: 1.875rem;
+  font-size: 1.5rem;
   font-weight: 500;
   letter-spacing: -0.025em;
   text-wrap: balance;
@@ -166,8 +167,10 @@ button {
 }
 
 .page-subtitle {
-  margin-top: 0.5rem;
+  margin-top: 0.35rem;
   color: var(--muted-foreground);
+  font-size: 0.9375rem;
+  line-height: 1.4;
 }
 
 .section-title {
@@ -294,14 +297,21 @@ button {
 
 @media (min-width: 40rem) {
   .about-intro {
-    flex-direction: row;
-    align-items: center;
-    gap: 1.75rem;
+    gap: 1.5rem;
   }
 
   .about-photo {
-    width: 9rem;
-    height: 9rem;
+    width: 8rem;
+    height: 8rem;
+  }
+
+  .page-title {
+    font-size: 1.875rem;
+  }
+
+  .page-subtitle {
+    margin-top: 0.5rem;
+    font-size: 1rem;
   }
 }
 
@@ -337,6 +347,10 @@ button {
 
   .main {
     padding: 3rem 4rem;
+  }
+
+  .about-intro {
+    gap: 1.75rem;
   }
 
   .about-photo {
