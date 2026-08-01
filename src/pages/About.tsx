@@ -10,7 +10,7 @@ export function About() {
           alt={`${site.name}`}
           width={800}
           height={800}
-          sizes="(min-width: 64rem) 10rem, (min-width: 40rem) 9rem, 7.5rem"
+          sizes="(min-width: 64rem) 10rem, (min-width: 40rem) 8rem, 5.5rem"
           decoding="async"
           fetchPriority="high"
         />
