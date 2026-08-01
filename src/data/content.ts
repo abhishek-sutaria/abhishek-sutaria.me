@@ -5,7 +5,7 @@ export const site = {
   email: 'abhishek.sutaria@gmail.com',
   phone: '+1 (930) 333-7194',
   location: 'Bloomington, IN',
-  resumeUrl: '/resume.pdf',
+  resumeUrl: '/Abhishek_Sutaria_Resume.pdf',
   links: {
     email: 'mailto:abhishek.sutaria@gmail.com',
     github: 'https://github.com/abhishek-sutaria',
