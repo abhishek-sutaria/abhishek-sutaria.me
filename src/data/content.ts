@@ -6,8 +6,6 @@ export const site = {
   phone: '+1 (930) 333-7194',
   location: 'Bloomington, IN',
   resumeUrl: '/resume.pdf',
-  /** LinkedIn headshot — served as original PNG (no recompression) */
-  photoUrl: '/headshot.png',
   links: {
     email: 'mailto:abhishek.sutaria@gmail.com',
     github: 'https://github.com/abhishek-sutaria',
