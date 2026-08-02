@@ -131,6 +131,7 @@ export const projects: ProjectItem[] = [
     year: '2025',
     summary:
       'Real-time meeting intelligence with FastAPI and Whisper ASR across 5+ languages — cutting post-meeting documentation time by 80%.',
+    href: 'https://github.com/abhishek-sutaria/Luddy_hackathon_2025',
   },
   {
     name: 'Real-Time Trade Anomaly Detection',
@@ -164,12 +165,6 @@ export const projects: ProjectItem[] = [
     year: '2026',
     summary: 'Interactive exploration of how AI reshapes labor markets and skill demand.',
     href: 'https://future-of-jobs.vercel.app',
-  },
-  {
-    name: 'Chrono Recall Board',
-    year: '2026',
-    summary: 'Decade-themed voice memory recording board.',
-    href: 'https://chrono-recall-board.vercel.app',
   },
 ]
 
