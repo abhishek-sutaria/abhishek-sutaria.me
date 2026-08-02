@@ -71,7 +71,7 @@ export const aboutParagraphs: BioParagraph[] = [
     },
     {
       text: 'UnStutter AI',
-      href: 'https://github.com/Devpatel1901/UnStutterAI',
+      href: 'https://github.com/abhishek-sutaria/UnStutterAI',
     },
     {
       text: ', a real-time speech accessibility tool that won the Honeywell Hackathon at NSBE 2026 against 35+ teams. Also ',
@@ -118,7 +118,7 @@ export const projects: ProjectItem[] = [
     year: '2026',
     summary:
       '1st Place, Honeywell Hackathon @ NSBE 2026 — real-time speech accessibility tool for 70M+ people affected by speech disfluencies.',
-    href: 'https://github.com/Devpatel1901/UnStutterAI',
+    href: 'https://github.com/abhishek-sutaria/UnStutterAI',
   },
   {
     name: 'CareBridge',
