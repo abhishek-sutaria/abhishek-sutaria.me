@@ -67,7 +67,14 @@ export const aboutParagraphs: BioParagraph[] = [
       href: 'https://github.com/abhishek-sutaria/CareBridge',
     },
     {
-      text: ', a multi-agent post-discharge care platform that took 2nd at the Claude Hackathon, and UnStutter AI, a real-time speech accessibility tool that won the Honeywell Hackathon at NSBE 2026 against 35+ teams. Also ',
+      text: ', a multi-agent post-discharge care platform that took 2nd at the Claude Hackathon, and ',
+    },
+    {
+      text: 'UnStutter AI',
+      href: 'https://github.com/Devpatel1901/UnStutterAI',
+    },
+    {
+      text: ', a real-time speech accessibility tool that won the Honeywell Hackathon at NSBE 2026 against 35+ teams. Also ',
     },
     {
       text: 'model readiness tooling',
@@ -111,6 +118,7 @@ export const projects: ProjectItem[] = [
     year: '2026',
     summary:
       '1st Place, Honeywell Hackathon @ NSBE 2026 — real-time speech accessibility tool for 70M+ people affected by speech disfluencies.',
+    href: 'https://github.com/Devpatel1901/UnStutterAI',
   },
   {
     name: 'CareBridge',
