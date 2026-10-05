@@ -45,6 +45,18 @@ export function Projects() {
                 </>
               ) : null}
             </p>
+            {project.demoHref ? (
+              <p className="list-item-summary">
+                <a
+                  href={project.demoHref}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-link"
+                >
+                  Live demo
+                </a>
+              </p>
+            ) : null}
           </div>
         ))}
       </div>
