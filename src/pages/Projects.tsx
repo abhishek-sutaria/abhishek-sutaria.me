@@ -44,10 +44,6 @@ export function Projects() {
           GitHub
         </a>
         {' · '}
-        <a href={site.resumeUrl} target="_blank" rel="noopener noreferrer" className="inline-link">
-          Resume
-        </a>
-        {' · '}
         <Link to="/experience" className="inline-link">
           Experience
         </Link>

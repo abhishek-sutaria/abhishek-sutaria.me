@@ -1,4 +1,4 @@
-import { education, experience, site } from '../data/content'
+import { education, experience } from '../data/content'
 
 export function Experience() {
   return (
@@ -62,11 +62,6 @@ export function Experience() {
         </div>
       </div>
 
-      <div className="list-footer">
-        <a href={site.resumeUrl} target="_blank" rel="noopener noreferrer" className="inline-link">
-          Download resume (PDF)
-        </a>
-      </div>
     </article>
   )
 }
