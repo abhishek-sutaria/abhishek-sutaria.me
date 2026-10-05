@@ -1,6 +1,6 @@
 # Host on `abhishek-sutaria.me` (Namecheap + Vercel)
 
-Your domain **abhishek-sutaria.me** is registered at Namecheap. This site is a static Vite app — host it on **Vercel** (free), then point Namecheap DNS at it.
+Your domain **abhishek-sutaria.me** is registered at Namecheap. This site is a static Vite app: host it on **Vercel** (free), then point Namecheap DNS at it.
 
 > If the domain still has GitHub Pages A records (`185.199.x.x`), replace them with Vercel’s records below.
 
@@ -67,7 +67,7 @@ dig +short abhishek-sutaria.me A
 # expect: 76.76.21.21
 ```
 
-Open https://abhishek-sutaria.me — Vercel provisions HTTPS once DNS is correct.
+Open https://abhishek-sutaria.me. Vercel provisions HTTPS once DNS is correct.
 
 ## What you do not need
 

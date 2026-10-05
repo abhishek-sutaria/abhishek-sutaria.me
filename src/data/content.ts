@@ -108,7 +108,7 @@ export const projects: ProjectItem[] = [
     name: 'GRPO Text-to-SQL (Qwen2.5-3B)',
     year: '2026',
     summary:
-      'Post-trained Qwen2.5-3B with GRPO + QLoRA on Spider 1.0 using an execution-based reward and eval framework — execution accuracy 34.2% → 58.6%, SQL execution success 68.5% → 86.9%.',
+      'Post-trained Qwen2.5-3B with GRPO + QLoRA on Spider 1.0 using an execution-based reward and eval framework: execution accuracy 34.2% → 58.6%, SQL execution success 68.5% → 86.9%.',
   },
   {
     name: 'ModelReady',
@@ -121,14 +121,14 @@ export const projects: ProjectItem[] = [
     name: 'UnStutter AI',
     year: '2026',
     summary:
-      '1st Place, Honeywell Hackathon @ NSBE 2026 — real-time speech accessibility tool for 70M+ people affected by speech disfluencies.',
+      '1st Place, Honeywell Hackathon @ NSBE 2026: real-time speech accessibility tool for 70M+ people affected by speech disfluencies.',
     href: 'https://github.com/abhishek-sutaria/UnStutterAI',
   },
   {
     name: 'CareBridge',
     year: '2026',
     summary:
-      '2nd Place, Claude Hackathon — multi-agent AI platform automating post-discharge patient follow-ups to reduce hospital readmissions.',
+      '2nd Place, Claude Hackathon: multi-agent AI platform automating post-discharge patient follow-ups to reduce hospital readmissions.',
     href: 'https://github.com/abhishek-sutaria/CareBridge',
   },
   {
@@ -142,7 +142,7 @@ export const projects: ProjectItem[] = [
     name: 'MeetSmart',
     year: '2025',
     summary:
-      'Real-time meeting intelligence with FastAPI and Whisper ASR across 5+ languages — cutting post-meeting documentation time by 80%.',
+      'Real-time meeting intelligence with FastAPI and Whisper ASR across 5+ languages, cutting post-meeting documentation time by 80%.',
     href: 'https://github.com/abhishek-sutaria/Luddy_hackathon_2025',
   },
   {
@@ -155,7 +155,7 @@ export const projects: ProjectItem[] = [
     name: 'FinEdu.ai',
     year: '2024',
     summary:
-      'Llama-2-7B RAG assistant for finance education — Sentence-Transformers, LlamaIndex, and a Gradio interface for beginner-friendly explanations.',
+      'Llama-2-7B RAG assistant for finance education: Sentence-Transformers, LlamaIndex, and a Gradio interface for beginner-friendly explanations.',
     href: 'https://github.com/abhishek-sutaria/FinEdu-LLM',
   },
   {

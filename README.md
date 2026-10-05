@@ -1,4 +1,4 @@
-# Abhishek Sutaria — Personal Site
+# Abhishek Sutaria - Personal Site
 
 Minimal personal site inspired by [neelsomani.com](https://www.neelsomani.com/) for **[abhishek-sutaria.me](https://abhishek-sutaria.me)**.
 
