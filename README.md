@@ -20,4 +20,4 @@ npm run preview
 
 See **[DEPLOY.md](./DEPLOY.md)** (Vercel + Namecheap Advanced DNS).
 
-In Vercel, import **this** repo — Root Directory stays `.` (project root).
+In Vercel, import **this** repo. Root Directory stays `.` (project root).
