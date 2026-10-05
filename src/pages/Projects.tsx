@@ -28,7 +28,23 @@ export function Projects() {
               </h2>
               <span className="list-item-meta">{project.year}</span>
             </div>
-            <p className="list-item-summary">{project.summary}</p>
+            <p className="list-item-summary">
+              {project.summary}
+              {project.codeHref ? (
+                <>
+                  {' '}
+                  <a
+                    href={project.codeHref}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-link"
+                  >
+                    Source code
+                  </a>
+                  .
+                </>
+              ) : null}
+            </p>
           </div>
         ))}
       </div>

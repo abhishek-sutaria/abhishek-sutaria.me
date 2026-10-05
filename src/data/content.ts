@@ -101,6 +101,7 @@ export type ProjectItem = {
   year: string
   summary: string
   href?: string
+  codeHref?: string
 }
 
 export const projects: ProjectItem[] = [
@@ -110,6 +111,7 @@ export const projects: ProjectItem[] = [
     summary:
       'Post-trained Qwen2.5-3B with GRPO + QLoRA on Spider 1.0 using an execution-based reward and eval framework: execution accuracy 34.2% → 58.6%, SQL execution success 68.5% → 86.9%.',
     href: 'https://abhisheksutaria-text-to-sql-grpo.hf.space',
+    codeHref: 'https://github.com/abhishek-sutaria/text-to-sql-grpo',
   },
   {
     name: 'ModelReady',
