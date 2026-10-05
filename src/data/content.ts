@@ -107,6 +107,12 @@ export type ProjectItem = {
 
 export const projects: ProjectItem[] = [
   {
+    name: 'GRPO Text-to-SQL (Qwen2.5-3B)',
+    year: '2026',
+    summary:
+      'Post-trained Qwen2.5-3B with GRPO + QLoRA on Spider 1.0 using an execution-based reward and eval framework — execution accuracy 34.2% → 58.6%, SQL execution success 68.5% → 86.9%.',
+  },
+  {
     name: 'ModelReady',
     year: '2026',
     summary:
