@@ -110,7 +110,7 @@ export const projects: ProjectItem[] = [
     name: 'Text-to-SQL GRPO (Qwen2.5-3B)',
     year: '2026',
     summary:
-      'Live Gradio demo on Qwen/Qwen2.5-3B-Instruct with Spider-style SQLite execution rewards and an open eval harness (no GRPO LoRA on the Space yet). Full QLoRA SFT → GRPO 3k×4 recipe documented for A100-class runs.',
+      'Post-trained Qwen2.5-3B with QLoRA SFT + GRPO (3000×4) on Spider execution rewards. Spider dev (n=1034): GRPO 62.67% exec accuracy vs 60.83% base (+1.8 pp); SFT 61.70%. Open harness; live Gradio demo with Hub LoRA adapter.',
     href: 'https://github.com/abhishek-sutaria/text-to-sql-grpo',
     demoHref: 'https://abhisheksutaria-text-to-sql-grpo.hf.space',
   },
