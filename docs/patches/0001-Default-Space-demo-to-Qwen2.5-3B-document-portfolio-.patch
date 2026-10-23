@@ -141,7 +141,7 @@ index 0000000..b24d430
 +
 +- Post-trained **Qwen2.5-3B** with **GRPO + QLoRA** on Spider 1.0
 +- Execution-based reward and eval framework
-+- Reported metrics: execution accuracy **34.2% → 58.6%**, SQL execution success **68.5% → 86.9%**
++- Measured Spider dev (n=1034): Base **60.83%** / SFT **61.70%** / GRPO **62.67%** exec accuracy
 +- Live demo: https://abhisheksutaria-text-to-sql-grpo.hf.space
 +- Code: https://github.com/abhishek-sutaria/text-to-sql-grpo
 +

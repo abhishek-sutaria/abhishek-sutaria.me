@@ -4,26 +4,22 @@ For the **text-to-sql-grpo / RL agent** chat. Portfolio: https://abhishek-sutari
 
 | What visitors expect | Current Space behavior |
 |----------------------|-------------------------|
-| Qwen2.5-3B post-trained demo + execution rewards | Schema **stub** (`MODEL_ID` unset) |
+| Qwen2.5-3B post-trained demo + execution rewards | Hub adapter via `ADAPTER_ID` + `MODEL_ID=Qwen/Qwen2.5-3B-Instruct` |
 
-GitHub issue (checklist): https://github.com/abhishek-sutaria/text-to-sql-grpo/issues/1
+GitHub: https://github.com/abhishek-sutaria/text-to-sql-grpo  
+Hub: https://huggingface.co/abhisheksutaria/qwen2.5-3b-grpo-text-to-sql  
+Space: https://abhisheksutaria-text-to-sql-grpo.hf.space
 
-## Fastest fix (no code merge)
+## Status (done)
 
-In Hugging Face Space **Settings → Variables**:
+1. GRPO QLoRA adapter uploaded to Hugging Face Hub.
+2. Space secret `ADAPTER_ID` = `abhisheksutaria/qwen2.5-3b-grpo-text-to-sql`.
+3. `scripts/eval.py` on Spider **dev** (n=1034) measured: Base **60.83%** / SFT **61.70%** / GRPO **62.67%** exec accuracy (exec success 88.78 / 81.33 / 82.40; mean reward 0.770 / 0.752 / 0.761). See [results/MEASURED_RESULTS.md](https://github.com/abhishek-sutaria/text-to-sql-grpo/blob/main/results/MEASURED_RESULTS.md).
 
-- `MODEL_ID` = `Qwen/Qwen2.5-3B-Instruct`
+## Portfolio card copy
 
-Redeploy / restart, then smoke-test: Notes must **not** say “stub generator”.
+`src/data/content.ts` cites the measured Spider table (GRPO 62.67% vs base 60.83%, +1.8 pp).
 
-## Full portfolio match
+## Code note
 
-1. Upload GRPO QLoRA adapter to Hugging Face Hub.
-2. Space **Secret** `ADAPTER_ID` = Hub repo id for that adapter.
-3. Run `scripts/eval.py` on Spider dev; document metrics (34.2→58.6% exec acc, 68.5→86.9% exec success).
-
-## Code change (recommended)
-
-Apply patch in `docs/patches/0001-Default-Space-demo-to-Qwen2.5-3B-document-portfolio-.patch` on `text-to-sql-grpo` `main` so Spaces default to Qwen when `SPACE_ID` is set (see `docs/PORTFOLIO_ALIGNMENT.md` in that patch).
-
-Dev-only stub: `USE_STUB_GENERATOR=1`.
+Space defaults for Qwen when `SPACE_ID` is set are already on `text-to-sql-grpo` `main`. Historical patch under `docs/patches/` is superseded. Dev-only stub: `USE_STUB_GENERATOR=1`.
